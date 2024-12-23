@@ -1,4 +1,5 @@
 import react, {useState, useEffect} from 'react'
+import '../styles/RandomBibleVerses.css'
 
 const RandomBibleVerses = () => {
     
