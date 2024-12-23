@@ -5,6 +5,8 @@ html, body {
   overflow: auto;
 }
 
+
+
 /* Background wrapper for video */
 .background-wrapper {
   margin: 0;
@@ -29,4 +31,17 @@ video {
   height: 100vh;
   object-fit: cover;  /* Cover the screen entirely */
   z-index: -1;        /* Make sure the video stays behind */
+}
+
+/* Image styles */
+img {
+  width: 150px;     /* Make the image smaller */
+  z-index: 1;
+
+}
+
+.image-container {
+  justify-content: center;
+  display: flex;
+  margin-top: 800px;
 }
